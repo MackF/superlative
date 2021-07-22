@@ -18,7 +18,7 @@ const ViewForm = () => {
       setForm(forms[0].toJSON());
       console.log(form);
     });
-  }, []);
+  }, [groupName,form]);
 
   return (
     <div>
