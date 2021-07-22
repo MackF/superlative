@@ -52,7 +52,7 @@ const Voter = () => {
     o[e.target.id] = e.target.value;
 
     // make sure the selector changes too
-    setName(e.target.value);
+    //setName(e.target.value);
   };
 
   // post voting (not yet implimented)
